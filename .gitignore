@@ -63,4 +63,8 @@ typings/
 **/dist
 
 dump.rdb
-peerId.json
+peerId.json 
+backend/migrations/.locations/ 
+
+package-lock.json
+.idea
