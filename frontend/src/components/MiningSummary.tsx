@@ -107,6 +107,7 @@ export class MiningSummary extends React.Component<MiningSummaryProps> {
   }
 
   renderPeerID () {
+    console.log(this.props.mining);
     if (!this.props.mining.peerId) {
       return 'UNKNOWN';
     }
